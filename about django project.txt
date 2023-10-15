@@ -1,0 +1,63 @@
+1)After the django installation check it works perfectly by the followeing command:
+python -m django  --version
+
+2)how to start django project : type in terminal the followeing command
+django-admin startproject projectname
+
+3)Navigate to the project directory
+cd projectname
+
+4)manage.py is like a control center for your Django project, letting you do things like start the
+ website, create the database,and manage various parts of your web application.
+
+ 5)init.py is a blank file represent a python package
+
+ 6)setting.py : keep the high level setting of your django project
+ settings.py is a configuration file in Django where you customize your
+  web application's behavior and settings.
+
+7)urls.py: is like a table of contents for your website,
+ telling it which web pages to show when you type different addresses in your browser.
+  
+8)wsgi.py : it is the relaible way to host your website.
+
+
+9)python manage.py runserver : is a command in Django that starts the development web server,
+ allowing you to run your Django web application locally for testing and development purposes.
+
+10) when a website exist in your brouser basically it is combination html,css and javascript.
+behind this seen we need a backend system the care of it which content send at a particular time to html,css,javascript.
+that system may be flask,django,pht,database.
+
+example:in brouser you type www.facebook.com you send a request to the facebook server and say that give this
+website what happen?
+your request reach to the facebook server where the login page exist and the server check, is it correct to give the login page to 
+user.yes it correct server give you the login page. then you give the credential like name,password and click login .
+again you send request and facebook server check is there a user exist in the server.if exist user then server send you the whole data 
+, actually it is the html,css,javascript. 
+
+note:
+which data send from the database to html,css,javascript and where to fix it in the html,css,javascript.
+this is the main porpouse of a backend system.
+
+
+11) save changes in initital.py file
+ for this we use the bellow commmand 
+-->python manage.py makemigrations app_name
+
+after apply the above command you should save changes in the database. use the bellow command
+python manage.py migrate
+
+
+12) what is admin interface?
+The Django admin interface is a user-friendly web page where you can manage and control your website's data without writing code.
+ It's like a dashboard where you can easily add, edit, or delete content, like user profiles, blog posts, or products.
+
+13) what is superuser?
+A Django superuser is like the ultimate boss who can do anything in the Django admin area and control every part of the website or application.
+Yes, a superuser primarily works in the admin area, which is a special section of a Django application used for managing content and settings. 
+Superusers have full control and access to this admin area.
+
+Django ORM:
+Django ORM allows developers to work with databases using Python objects and methods,
+ rather than writing raw SQL queries
