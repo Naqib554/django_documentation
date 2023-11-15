@@ -58,6 +58,8 @@ A Django superuser is like the ultimate boss who can do anything in the Django a
 Yes, a superuser primarily works in the admin area, which is a special section of a Django application used for managing content and settings. 
 Superusers have full control and access to this admin area.
 
+14) forms.py is a conventional file where you define and manage forms for your application. This file resides within your app's directory. You can create it if it doesn’t exist already.
+
 Django ORM:
 Django ORM allows developers to work with databases using Python objects and methods,
  rather than writing raw SQL queries.
